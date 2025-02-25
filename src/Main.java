@@ -21,7 +21,7 @@ public class Main {
         }
 
         public void takeBook(String... list) {
-            System.out.println("Читатель взял книги: " + String.join(", ", list) + "\n");
+            System.out.println("Читатель взял книги: " + String.join(", ", list));
         }
 
         public void returnBook(int books) {
@@ -34,7 +34,7 @@ public class Main {
         }
 
         public void returnBook(String... list) {
-            System.out.println("Читатель вернул книги: \n" + String.join(", ", list) + "\n");
+            System.out.println("Читатель вернул книги: " + String.join(", ", list));
         }
     }
 
